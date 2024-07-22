@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  display: flex;
+  /* align-items: center; */
+}
+
+ul {
+  list-style-type: none;
+}
+a, u {
+  text-decoration: none;
+  color: #089BF7;
+  /* color: #4CB5E8; */
+}
+/* .list{
+  display: flex;
+} */
+.list-item{
+ margin-left: -20px;
+}
+.list-item-empty{
+  margin-left: 22px;
+}
+/* .checkbox{
+  display: flex;
+} */
+
+
+
+.button{
+  border: none;
+  background:#ffffff;
+}
+.img, .img-open{
+  max-width: 10px;
+  max-height: 10px;
+  background:#ffffff;
+  margin-bottom: 3px;
+  /* color: #089BF7; */
+}
+.img-open{
+  transform:rotate(-90deg);
+}
